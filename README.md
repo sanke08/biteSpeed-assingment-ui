@@ -1,2 +1,2 @@
 # biteSpeed-assingment-ui
-](https://bite-speed-assingment-ui.vercel.app/)
+https://bite-speed-assingment-ui.vercel.app/
