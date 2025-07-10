@@ -48,6 +48,7 @@ export function useFlowBuilder() {
         setNodes((nds) => nds.filter((n) => !nodesToDelete.some((d) => d.id === n.id)));
         setEdges((eds) => eds.filter((e) => !nodesToDelete.some((d) => d.id === e.source || d.id === e.target)));
         setSelectedNode(null)
+        setTextValue("")
     }, [setNodes]);
 
 
@@ -69,7 +70,7 @@ export function useFlowBuilder() {
                     ...nodeDef.defaultData,
                 },
             };
-
+            setTextValue("")
             setNodes((nds) => [...nds, newNode]);
             setSelectedNode(newNode);
         },

@@ -24,7 +24,7 @@ export const nodeRegistry: RegisteredNodeType[] = [
         icon: whatsappImg,
         component: Node,
         defaultData: {
-            label: "Message",
+            label: "",
             icon: whatsappImg
         }
     },
@@ -35,7 +35,7 @@ export const nodeRegistry: RegisteredNodeType[] = [
         icon: instagramImg,
         component: Node,
         defaultData: {
-            label: "Message",
+            label: "",
             icon: instagramImg
         },
     },
